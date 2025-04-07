@@ -35,7 +35,7 @@ function getOffset(index: number) {
 
     <toast-viewport
       p="8" position="fixed" bottom="0" right="0" flex="~ col gap-6" w="390px"
-      max-w="100%" m="0" list-style="none" z="2147483647" outline="none"
+      max-w="100%" m="0" list-style="none" z="2147483647" outline="none hidden"
       :data-expanded="hovered"
       :style="{
         '--scale-factor': '0.05',
