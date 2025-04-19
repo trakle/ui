@@ -15,7 +15,7 @@ const { isReady: ready, state, error, isLoading: loading, execute } = useAsyncSt
   immediate: false,
 })
 
-defineExpose({execute})
+defineExpose({execute, state})
 </script>
 
 <template>
